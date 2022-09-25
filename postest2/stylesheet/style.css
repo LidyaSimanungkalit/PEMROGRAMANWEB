@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+nav{
+  
+    position: sticky;
+    position: -webkit-sticky;
+}
+.header{
+    background-color: #edf3f3;
+    height: 90px;
+    color: #1F96FF; 
+}
+.header2{
+   
+    background-color: #C4E1FF;
+    height: 50px;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+.header-logo{
+    font-size:36px;
+    float: left;
+    padding: 20px 40px;
+}
+.header-logo2{
+    font-family: 'Nunito', sans-serif;
+    font-size:15px;
+    float: left;
+    padding: 20px 40px;
+    margin-bottom: 5px;
+    padding-top : 15px;
+}
+.header-list li{
+    display: inline-block;
+    float: left;
+    padding : 33px 20px;
+    font-size:small;
+    font-family: 'Nunito', sans-serif; 
+}
+.header-list ul{
+
+}
+
+.header-list2 li{
+    float: right;
+    padding : 33px 33px;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+}
+.search{
+    flex-grow:var(#5e1313);
+    float: left;
+    padding-top : 10px;
+     
+
+}
+.srch{ 
+    border: 1px;
+    display: inline-block;
+    width: 400px; 
+    height:30px; 
+    border: 1px solid rgb(8, 208, 172);
+    
+}
+
+ul li a{
+    text-decoration: rgb(34, 179, 246);
+    font-weight: bold;
+    color:#1F96FF;
+}
+ul li a:hover{
+    color:#12c9cf;
+
+}
+.main{
+    padding: 50px 80px;
+    margin:auto;
+    height:auto;
+    width:auto;
+   
+}
+/*.gambar{
+     width:100px;
+    padding right:100;
+    padding
+    margin top: 10px;} */
+    
+.contents{
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-bottom: 8px;
+        padding-left: 0px;
+        margin-bottom: 0px;
+    
+    }
+.section-title{
+    padding-top: 0px;
+    margin-top: 0px;
+    border-bottom: 2px solid #dee7ec;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  
+    
+  
+   
+}
+.section-title a{
+    text-decoration: rgb(166, 185, 194);
+    font-weight: bold;
+    color:#639baf;
+    font-family: 'Nunito', sans-serif;
+
+}
+a:hover{
+    color:#12c9cf;
+}
+.kotak{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+  
+    
+ 
+   
+}
+.kotak1{
+    width:80px;
+    height:200px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    border:1px solid rgba(230, 222, 222, 0.929);
+    padding: 40px;
+    margin :3px;
+    background: linear-gradient();
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   
+    
+    
+} 
+/* editan untuk isi kotak 1 */
+.logo img{
+    width:60%; 
+
+}
+.lokasi img{
+    width:20% ;
+    margin-left: 0px;
+}
+.pt{
+    color: rgb(220, 210, 210);
+}
+.posisi{
+    color: rgb(24, 205, 87);
+}
+.lokasi p{
+    padding:0px 3px 800px 0px ;
+    margin-left: 500px;
+    float: right;
+}
+/* editan untuk isi kotak */
+#aboutme{
+    height: 200px;
+    background: #ffffff;
+    
+}
+.potoku img{
+    width:10%;
+    margin-right:1000px;  
+}
+
+    
+h1{
+    float: left;
+    font-size: 30px;
+    border-bottom: 2px solid #dee7ec;
+    margin-top: 50px;
+    
+}
+h5{
+    margin-left: 250px;
+    color: rgb(9, 9, 9);
+    padding: 4px;
+    font-family:'Nunito', sans-serif;
+
+}
+ 
+
+
+.footer{
+    background-color: #C4E1FF;
+    color: rgb(10, 10, 10);
+    height: 100px;
+    padding: 40px;
+    margin-top: 150px;
+    margin-bottom:0px ;
+   
+}
+
+.footer-logo{
+    font-size:32px;
+    float: left;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    padding-bottom: 20px;
+    
+}
